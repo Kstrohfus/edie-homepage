@@ -5,7 +5,7 @@ font-family: 'Poppins', sans-serif;*/
 body {
     font-family: "Poppins", sans-serif;
 }
-
+/* Nav */
 .nav .container {
     display: flex;
     justify-content: space-between;
@@ -30,26 +30,30 @@ body {
 }
 
 .logo {
+    color: #333;
     font-size: 36px;
     padding-left: 56px;
 }
-
+/* Text around hero */
 .unhappy {
     color: #2d9cdb;
-    font-style: normal;
+    text-align: left;
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
+    margin-left: 100px;
 }
 
 .title-create {
     color: #333;
-    font-style: normal;
     font-weight: 500;
     font-size: 48px;
-    line-height: 72px;
     text-align: left;
-    width: 75%;
+    margin-left: 100px;
+}
+
+.emotion {
+    width: 25%;
 }
 
 .hero img {
@@ -57,38 +61,47 @@ body {
 }
 
 .text {
-    text-align: left;
-    width: 75%;
     color: #4f4f4f;
+    text-align: left;
+    margin-left: 100px;
 }
-
-/* .email-contact {
+/* Email input */
+.contact {
+    color: #828282;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
     font-size: 14px;
-    width: 350px;
-    height: 57px;
+    line-height: 21px;
 }
 
-.email {
-    font-family: "Poppins", sans-serif;
-    position: relative;
-    width: 350px;
-    height: 20px;
-    background-color: #f2f2f2;
-    padding: 12px;
-    border-radius: 12px;
-    border: none;
+/* Not working */
+.material-icons {
+    font-size: 40px;
+}
+/* Icons within cards */
+.back {
+    color: #fff;
+    width: 67px;
+    height: 67px;
+    background-color: #eb5757;
+    border-radius: 16px;
 }
 
-.join {
-    font-family: "Poppins", sans-serif;
-    color: #f2f2f2;
-    position: absolute;
-    cursor: pointer;
-    width: 94px;
-    height: 45px;
-    left: 280px;
-    top: 927px;
-    background-color: #2d9bdbdd;
-    border-radius: 12px;
-    padding: 10px;
-} */
+.code {
+    color: #fff;
+    width: 67px;
+    height: 67px;
+    background-color: #27ae60;
+    border-radius: 16px;
+}
+
+.pencil {
+    color: #fff;
+    width: 67px;
+    height: 67px;
+    background-color: #2d9cdb;
+    border-radius: 16px;
+}
+
+
