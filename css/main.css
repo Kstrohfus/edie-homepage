@@ -12,34 +12,43 @@ body {
 }
 
 nav {
-    position: absolute;
     font-family: "Poppins", sans-serif;
     display: inline-block;
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav h1 {
     font-family: "Heebo", sans-serif;
+    color: #333;
     font-size: 36px;
     line-height: 53px;
     font-weight: 800;
+    text-decoration: none;
 }
 
 nav ul li {
     display: inline-block;
-    position: absolute;
-    width: 703px;
-    height: 36px;
-    left: 681px;
-    top: 51px;
+}
+
+nav ul li a {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    color: #333;
+    text-decoration: none;
 }
 
 .unhappy-text {
-    position: absolute;
+    color: #2d9cdb;
+
     width: 256px;
     height: 27px;
     left: 277px;
     top: 191px;
-
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -47,22 +56,31 @@ nav ul li {
 }
 
 .title-create {
-    position: absolute;
     width: 543px;
     height: 144px;
     left: 277px;
     top: 234px;
-
     font-style: normal;
     font-weight: 500;
     font-size: 48px;
     line-height: 72px;
 }
 .hero img {
-    position: absolute;
     width: 1332px;
     height: 354px;
     left: 52px;
     top: 420px;
     border-radius: 18px;
+}
+
+.hero h1 {
+}
+
+.hero p {
+}
+.email-contact {
+    width: 350px;
+    height: 57px;
+    left: 277px;
+    top: 1208px;
 }
