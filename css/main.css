@@ -176,3 +176,21 @@ img.team.guy-two {
     right: 380px;
     margin-top: 225px;
 }
+
+.fast {
+    padding-top: 500px;
+}
+
+img.customer-pic {
+    width: 135px;
+    height: 162px;
+    border-radius: 25px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.carlos-comment {
+    position: absolute;
+    left: 277px;
+    top: 4500px;
+}
