@@ -45,6 +45,7 @@ body {
 }
 
 .title-create {
+    font-family: "Poppins", sans-serif;
     color: #333;
     font-weight: 500;
     font-size: 48px;
@@ -66,40 +67,73 @@ body {
     margin-left: 100px;
 }
 /* Email input */
+
 .contact {
+    border: none;
     color: #828282;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 21px;
+    padding: 20px;
 }
 
-/* Not working */
-.material-icons {
+.input-email {
+    font-family: "Poppins", sans-serif;
+}
+
+i {
     font-size: 40px;
 }
 /* Icons within cards */
-.back {
-    color: #fff;
+.drive {
+    color: #eb5757;
     width: 67px;
     height: 67px;
-    background-color: #eb5757;
+
     border-radius: 16px;
 }
 
 .code {
-    color: #fff;
+    color: #27ae60;
     width: 67px;
     height: 67px;
-    background-color: #27ae60;
     border-radius: 16px;
 }
 
 .pencil {
-    color: #fff;
+    color: #2d9cdb;
     width: 67px;
     height: 67px;
-    background-color: #2d9cdb;
     border-radius: 16px;
+}
+
+.juice,
+.onboard,
+.booking,
+.smart-home {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #828282;
+}
+
+.square {
+    width: 545px;
+    height: 545px;
+    border-radius: 12px;
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-areas: (2 1fr);
+    grid-template-columns: 2;
+    grid-template-rows: 2;
+}
+.good {
+}
+.home-pic {
 }
