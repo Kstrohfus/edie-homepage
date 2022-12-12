@@ -135,4 +135,44 @@ i {
     text-align: left;
     font-weight: 500;
     font-size: 18px;
+    margin-bottom: 100px;
+}
+
+.team img {
+    width: 260px;
+    height: 260px;
+    border-radius: 24px;
+}
+
+img.team {
+    width: 260px;
+    height: 260px;
+    border-radius: 24px;
+}
+
+.meet {
+    font-family: "Poppins";
+    color: #eb5757;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    margin-right: 200px;
+}
+img.team.girl {
+    position: absolute;
+    border-radius: 24px;
+    margin-top: 125px;
+}
+
+img.team.guy {
+    margin-top: 0;
+    position: absolute;
+    right: 450px;
+}
+
+img.team.guy-two {
+    position: absolute;
+    right: 380px;
+    margin-top: 225px;
 }
