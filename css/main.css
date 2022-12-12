@@ -194,3 +194,50 @@ img.customer-pic {
     left: 277px;
     top: 4500px;
 }
+
+.footer {
+    background-color: #100e1d;
+    height: 385px;
+    color: #fff;
+    width: 100%;
+}
+
+.links {
+    position: absolute;
+    left: 166px;
+    top: 4750px;
+}
+
+i.bottom {
+    color: #fff;
+    padding: 10px;
+}
+
+i.bottom-two {
+    color: #fff;
+    padding: 10px;
+}
+
+i.bottom-three {
+    color: #fff;
+    padding: 10px;
+}
+
+.nav-bottom {
+    height: 150px;
+    background-color: #100e1d;
+}
+
+.nav-bottom ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-bottom li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 7px 15px;
+    font-weight: 500;
+    font-size: 24px;
+}
